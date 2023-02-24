@@ -67,7 +67,7 @@ const handleSubmit = async (e) => {
 
     // featch data from server
 
-    const response = await fetch("http://192.168.1.188:5000", {
+    const response = await fetch("https://codeengineer.onrender.com/", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
